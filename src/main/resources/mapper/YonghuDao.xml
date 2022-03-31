@@ -15,25 +15,25 @@
 	<select id="selectListVO"
 		resultType="com.entity.vo.YonghuVO" >
 		SELECT * FROM yonghu  yonghu         
-        <where> 1=1 ${ew.sqlSegment}</where>
+        <where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.YonghuVO" >
 		SELECT  yonghu.* FROM yonghu  yonghu 	
- 		<where> 1=1 ${ew.sqlSegment}</where>
+ 		<where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.YonghuView" >
 
 		SELECT  yonghu.* FROM yonghu  yonghu 	        
-        <where> 1=1 ${ew.sqlSegment}</where>
+        <where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.YonghuView" >
-		SELECT * FROM yonghu  yonghu <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM yonghu  yonghu <where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 	
 </mapper>

@@ -18,25 +18,25 @@
 	<select id="selectListVO"
 		resultType="com.entity.vo.HuiyishiVO" >
 		SELECT * FROM huiyishi  huiyishi         
-        <where> 1=1 ${ew.sqlSegment}</where>
+        <where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.HuiyishiVO" >
 		SELECT  huiyishi.* FROM huiyishi  huiyishi 	
- 		<where> 1=1 ${ew.sqlSegment}</where>
+ 		<where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.HuiyishiView" >
 
 		SELECT  huiyishi.* FROM huiyishi  huiyishi 	        
-        <where> 1=1 ${ew.sqlSegment}</where>
+        <where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.HuiyishiView" >
-		SELECT * FROM huiyishi  huiyishi <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM huiyishi  huiyishi <where> 1=1 and is_delete = '1' ${ew.sqlSegment}</where>
 	</select>
 	
 </mapper>

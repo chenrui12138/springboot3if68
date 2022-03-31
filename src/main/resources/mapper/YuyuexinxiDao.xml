@@ -23,25 +23,25 @@
 	<select id="selectListVO"
 		resultType="com.entity.vo.YuyuexinxiVO" >
 		SELECT * FROM yuyuexinxi  yuyuexinxi         
-        <where> 1=1 ${ew.sqlSegment}</where>
+        <where> 1=1 and is_delete = '1'  ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectVO"
 		resultType="com.entity.vo.YuyuexinxiVO" >
 		SELECT  yuyuexinxi.* FROM yuyuexinxi  yuyuexinxi 	
- 		<where> 1=1 ${ew.sqlSegment}</where>
+ 		<where> 1=1 and is_delete = '1'  ${ew.sqlSegment}</where>
 	</select>
 
     <select id="selectListView"
 		resultType="com.entity.view.YuyuexinxiView" >
 
-		SELECT  yuyuexinxi.* FROM yuyuexinxi  yuyuexinxi 	        
-        <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT  yuyuexinxi.* FROM yuyuexinxi  yuyuexinxi
+        <where> 1=1 and is_delete = '1'  ${ew.sqlSegment}</where>
 	</select>
 	
 	<select id="selectView"
 		resultType="com.entity.view.YuyuexinxiView" >
-		SELECT * FROM yuyuexinxi  yuyuexinxi <where> 1=1 ${ew.sqlSegment}</where>
+		SELECT * FROM yuyuexinxi  yuyuexinxi <where> 1=1 and is_delete = '1'  ${ew.sqlSegment}</where>
 	</select>
 	
 </mapper>
