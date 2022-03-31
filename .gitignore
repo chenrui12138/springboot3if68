@@ -31,3 +31,9 @@ build/
 .vscode/
 
 *.log
+**/mvnw
+**/mvnw.cmd
+
+**/.mvn
+**/target/
+
