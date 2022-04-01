@@ -10,7 +10,7 @@ const menu = {
                 }], "menu": "用户管理"
             }, {
                 "child": [{
-                    "buttons": ["新增", "查看", "修改", "删除"],
+                    "buttons": ["新增", "查看","预约", "修改", "删除"],
                     "menu": "会议室",
                     "menuJump": "列表",
                     "tableName": "huiyishi"

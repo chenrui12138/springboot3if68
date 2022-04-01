@@ -90,4 +90,15 @@ const router = new VueRouter({
     routes // （缩写）相当于 routes: routes
 })
 
+// src/router/index.js
+// Vue.use(Router)
+// const router = new Router({
+//     routes
+// })
+//
+// const VueRouterPush = Router.prototype.push
+// Router.prototype.push = function push (to) {
+//     return VueRouterPush.call(this, to).catch(err => err)
+// }
+
 export default router;
