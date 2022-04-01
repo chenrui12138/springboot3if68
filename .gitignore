@@ -30,6 +30,8 @@ build/
 ### VS Code ###
 .vscode/
 
+/logs
+
 *.log
 **/mvnw
 **/mvnw.cmd
