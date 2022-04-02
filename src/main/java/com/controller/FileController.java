@@ -53,18 +53,21 @@ public class FileController {
 		if (file.isEmpty()) {
 			throw new EIException("上传文件不能为空");
 		}
-		String fileExt = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".")+1);
+		//获取后缀名
+//		String fileExt = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf(".")+1);
 		File path = new File(ResourceUtils.getURL("classpath:static").getPath());
 		if(!path.exists()) {
 		    path = new File("");
 		}
-		File upload = new File(path.getAbsolutePath(),"/upload/");
-		if(!upload.exists()) {
-		    upload.mkdirs();
-		}
+//		File upload = new File(path.getAbsolutePath(),"/upload/");
+//		if(!upload.exists()) {
+//		    upload.mkdirs();
+//		}
 //		String fileName = new Date().getTime()+"."+fileExt;
-        String fileName = new Date().getTime()+"."+file.getOriginalFilename();
-		File dest = new File(upload.getAbsolutePath()+"/"+fileName);
+        //对文件进行重命名防止文件覆盖
+        String fileName = new Date().getTime()+"#"+file.getOriginalFilename();
+//		File dest = new File(upload.getAbsolutePath()+"/"+fileName);
+		File dest = new File(path+"/"+fileName);
 		file.transferTo(dest);
 		/**
   		 * 如果使用idea或者eclipse重启项目，发现之前上传的图片或者文件丢失，将下面一行代码注释打开

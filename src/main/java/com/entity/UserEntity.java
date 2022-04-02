@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 import com.baomidou.mybatisplus.annotations.TableId;
+import com.baomidou.mybatisplus.annotations.TableLogic;
 import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 import lombok.AllArgsConstructor;
@@ -11,7 +12,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /** 
- * 用户
+ * 管理员表
  */
 @Data
 @AllArgsConstructor
@@ -19,19 +20,28 @@ import lombok.NoArgsConstructor;
 @TableName("users")
 public class UserEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
+	/*
+	* @Description: 主键id
+	* @Author: 陈锐  2022/04/02 10:26
+	*/
 	@TableId(type = IdType.INPUT)
 	private Long id;
 	
 	/**
-	 * 用户账号
+	 * 用户姓名
 	 */
-	private String username;
+	private String xingming;
 	
 	/**
 	 * 密码
 	 */
 	private String password;
+
+	/**
+	 * 工号
+	 */
+	private String gonghao;
 	
 	/**
 	 * 用户类型
@@ -39,6 +49,22 @@ public class UserEntity implements Serializable {
 	private String role;
 	
 	private Date addtime;
+
+	/**
+	 * 性别
+	 */
+	private String xingbie;
+
+	/**
+	 * 联系电话
+	 */
+	private String lianxidianhua;
+
+	/**
+	 * 删除标志 1未删除，0已删除
+	 */
+	@TableLogic(value = "1", delval = "0")
+	private String isDelete;
 
 //	public String getUsername() {
 //		return username;

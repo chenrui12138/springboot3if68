@@ -61,31 +61,26 @@ public class YonghuEntity<T> implements Serializable {
 	/**
 	 * 工号
 	 */
-					
 	private String gonghao;
 	
 	/**
 	 * 姓名
 	 */
-					
 	private String xingming;
 	
 	/**
 	 * 密码
 	 */
-					
 	private String mima;
 	
 	/**
 	 * 性别
 	 */
-					
 	private String xingbie;
 	
 	/**
 	 * 联系电话
 	 */
-					
 	private String lianxidianhua;
 	
 	
@@ -98,6 +93,11 @@ public class YonghuEntity<T> implements Serializable {
 	 */
 	@TableLogic(value = "1", delval = "0")
 	private String isDelete;
+
+	/**
+	 * 用户类型
+	 */
+	private String role;
 
 //	public Date getAddtime() {
 //		return addtime;

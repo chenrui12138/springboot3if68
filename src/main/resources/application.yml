@@ -2,7 +2,8 @@
 server:
     tomcat:
         uri-encoding: UTF-8
-    port: 8080
+    port: 8081
+    max-http-header-size: 2MB
     servlet:
         context-path: /springboot3if68
 
@@ -82,4 +83,4 @@ mybatis-plus:
 
 logging:
   level:
-    com.dao: debug
+    com.dao: info
