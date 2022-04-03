@@ -60,16 +60,16 @@ public class FileController {
 		    path = new File("");
 		}
 
-//		File upload = new File(path.getAbsolutePath(),"/upload/");
-//		if(!upload.exists()) {
-//		    upload.mkdirs();
-//		}
+		File upload = new File(path.getAbsolutePath(),"/upload/");
+		if(!upload.exists()) {
+		    upload.mkdirs();
+		}
 
 //		String fileName = new Date().getTime()+"."+fileExt;
         //对文件进行重命名防止文件覆盖
-        String fileName = new Date().getTime()+"#"+file.getOriginalFilename();
-//		File dest = new File(upload.getAbsolutePath()+"/"+fileName);
-		File dest = new File(path+"/"+fileName);
+        String fileName = new Date().getTime()+"."+file.getOriginalFilename();
+		File dest = new File(upload.getAbsolutePath()+"/"+fileName);
+//		File dest = new File(path+"/"+fileName);
 		file.transferTo(dest);
 
 		//复制文件
