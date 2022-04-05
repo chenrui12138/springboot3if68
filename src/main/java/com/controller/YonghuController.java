@@ -52,7 +52,7 @@ public class YonghuController {
 	@IgnoreAuth
 	@RequestMapping(value = "/login")
 	public R login(String username, String password, String captcha, HttpServletRequest request) {
-		YonghuEntity user = yonghuService.selectOne(new EntityWrapper<YonghuEntity>().eq("xingming", username));
+		YonghuEntity user = yonghuService.selectOne(new EntityWrapper<YonghuEntity>().eq("gonghao", username));
 		if(user==null || !user.getMima().equals(password)) {
 			return R.error("账号或密码不正确");
 		}
@@ -74,7 +74,7 @@ public class YonghuController {
 		}
 		YonghuEntity user1 = yonghuService.selectOne(new EntityWrapper<YonghuEntity>().eq("xingming", yonghu.getXingming()));
 		if(user1 != null) {
-			return R.error("用户名已存在");
+			return R.error("姓名已存在");
 		}
 		Long uId = new Date().getTime();
 		yonghu.setId(uId);
