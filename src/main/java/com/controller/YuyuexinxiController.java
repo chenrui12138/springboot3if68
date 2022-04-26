@@ -43,7 +43,6 @@ public class YuyuexinxiController {
     @Autowired
     private YuyuexinxiService yuyuexinxiService;
 
-
     /**
      * 后端列表
      */
@@ -144,7 +143,6 @@ public class YuyuexinxiController {
         return R.ok();
     }
 
-
     /**
      * 删除
      */
@@ -200,6 +198,5 @@ public class YuyuexinxiController {
         int count = yuyuexinxiService.selectCount(wrapper);
         return R.ok().put("count", count);
     }
-
 
 }
