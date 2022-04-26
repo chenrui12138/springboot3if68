@@ -48,7 +48,7 @@ public class UserController{
 	@IgnoreAuth
 	@PostMapping(value = "/login")
 	public R login(String username, String password, String captcha, HttpServletRequest request) {
-		UserEntity user = userService.selectOne(new EntityWrapper<UserEntity>().eq("xingming", username));
+		UserEntity user = userService.selectOne(new EntityWrapper<UserEntity>().eq("gonghao", username.toUpperCase()));
 		if(user==null || !user.getPassword().equals(password)) {
 			return R.error("账号或密码不正确");
 		}
@@ -85,7 +85,7 @@ public class UserController{
     @IgnoreAuth
 	@RequestMapping(value = "/resetPass")
     public R resetPass(String username, HttpServletRequest request){
-    	UserEntity user = userService.selectOne(new EntityWrapper<UserEntity>().eq("username", username));
+    	UserEntity user = userService.selectOne(new EntityWrapper<UserEntity>().eq("xingming", username));
     	if(user==null) {
     		return R.error("账号不存在");
     	}
@@ -139,7 +139,7 @@ public class UserController{
     @PostMapping("/save")
     public R save(@RequestBody UserEntity user){
 //    	ValidatorUtils.validateEntity(user);
-    	if(userService.selectOne(new EntityWrapper<UserEntity>().eq("username", user.getXingming())) !=null) {
+    	if(userService.selectOne(new EntityWrapper<UserEntity>().eq("xingming", user.getXingming())) !=null) {
     		return R.error("用户已存在");
     	}
         userService.insert(user);
@@ -152,7 +152,7 @@ public class UserController{
     @RequestMapping("/update")
     public R update(@RequestBody UserEntity user){
 //        ValidatorUtils.validateEntity(user);
-    	UserEntity u = userService.selectOne(new EntityWrapper<UserEntity>().eq("username", user.getXingming()));
+    	UserEntity u = userService.selectOne(new EntityWrapper<UserEntity>().eq("xingming", user.getXingming()));
     	if(u!=null && u.getId()!=user.getId() && u.getXingming().equals(user.getXingming())) {
     		return R.error("用户名已存在。");
     	}
