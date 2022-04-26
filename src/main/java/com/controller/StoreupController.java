@@ -42,9 +42,6 @@ public class StoreupController {
     @Autowired
     private StoreupService storeupService;
 
-    
-
-
     /**
      * 后端列表
      */
@@ -112,9 +109,6 @@ public class StoreupController {
         StoreupEntity storeup = storeupService.selectById(id);
         return R.ok().put("data", storeup);
     }
-    
-
-
 
     /**
      * 后端保存
@@ -201,14 +195,7 @@ public class StoreupController {
     		wrapper.eq("userid", (Long)request.getSession().getAttribute("userId"));
     	}
 
-
 		int count = storeupService.selectCount(wrapper);
 		return R.ok().put("count", count);
 	}
-	
-
-
-
-
-
 }
