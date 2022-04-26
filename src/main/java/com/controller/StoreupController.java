@@ -143,7 +143,6 @@ public class StoreupController {
         storeupService.updateById(storeup);//全部更新
         return R.ok();
     }
-    
 
     /**
      * 删除

@@ -28,7 +28,6 @@ import com.utils.MD5Util;
 import com.utils.MPUtil;
 import com.utils.CommonUtil;
 
-
 /**
  * 会议室
  * 后端接口
@@ -41,9 +40,6 @@ import com.utils.CommonUtil;
 public class HuiyishiController {
     @Autowired
     private HuiyishiService huiyishiService;
-
-    
-
 
     /**
      * 后端列表
@@ -108,9 +104,6 @@ public class HuiyishiController {
         HuiyishiEntity huiyishi = huiyishiService.selectById(id);
         return R.ok().put("data", huiyishi);
     }
-    
-
-
 
     /**
      * 后端保存
@@ -144,7 +137,6 @@ public class HuiyishiController {
         huiyishiService.updateById(huiyishi);//全部更新
         return R.ok();
     }
-    
 
     /**
      * 删除
@@ -197,10 +189,5 @@ public class HuiyishiController {
 		int count = huiyishiService.selectCount(wrapper);
 		return R.ok().put("count", count);
 	}
-	
-
-
-
-
 
 }
