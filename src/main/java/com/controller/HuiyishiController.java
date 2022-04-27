@@ -185,7 +185,6 @@ public class HuiyishiController {
 			wrapper.le(columnName, map.get("remindend"));
 		}
 
-
 		int count = huiyishiService.selectCount(wrapper);
 		return R.ok().put("count", count);
 	}
