@@ -7,9 +7,6 @@ import com.baomidou.mybatisplus.annotations.TableName;
 import com.baomidou.mybatisplus.enums.IdType;
 import lombok.Data;
 
-/**
-* 类说明 : 
-*/
 @TableName("config")
 @Data
 public class ConfigEntity implements Serializable{

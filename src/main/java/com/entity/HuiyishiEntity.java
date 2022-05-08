@@ -62,49 +62,41 @@ public class HuiyishiEntity<T> implements Serializable {
 	/**
 	 * 编号
 	 */
-					
 	private String bianhao;
 	
 	/**
 	 * 名称
 	 */
-					
 	private String mingcheng;
 	
 	/**
 	 * 规模
 	 */
-					
 	private String guimo;
 	
 	/**
 	 * 类型
 	 */
-					
 	private String leixing;
 	
 	/**
 	 * 图片
 	 */
-					
 	private String tupian;
 	
 	/**
 	 * 状况
 	 */
-					
 	private String zhuangkuang;
 	
 	/**
 	 * 可约时间
 	 */
-					
 	private String keyueshijian;
 	
 	/**
 	 * 详情
 	 */
-					
 	private String xiangqing;
 	
 	
