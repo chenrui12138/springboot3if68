@@ -11,11 +11,7 @@ import com.utils.ValidatorUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.annotation.IgnoreAuth;
@@ -126,6 +122,15 @@ public class YonghuController {
         return R.ok("密码已重置为：123456");
     }
 
+    /*
+     * @Description:根据工号查询
+     * @Author: 陈锐  2022/05/09 0:28
+     */
+    @GetMapping("/selectByGonghao/{gonghao}")
+    public R selectByGonghao(@PathVariable("gonghao") String gonghao){
+        YonghuEntity yonghu = yonghuService.selectOne(new EntityWrapper<YonghuEntity>().eq("gonghao",gonghao));
+        return R.ok().put("data", yonghu);
+    }
 
     /**
      * 后端列表
