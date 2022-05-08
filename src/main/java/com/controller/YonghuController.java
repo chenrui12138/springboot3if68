@@ -62,6 +62,9 @@ public class YonghuController {
         if (user == null || !user.getMima().equals(password)) {
             return R.error("账号或密码不正确");
         }
+        if (!Objects.equals("用户",user.getRole())){
+            return R.error("账号或密码不正确");
+        }
 
         String token = tokenService.generateToken(user.getId(), username, "yonghu", "用户");
         return R.ok().put("token", token);

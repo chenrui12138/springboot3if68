@@ -122,6 +122,16 @@ public class UserController{
         UserEntity user = userService.selectById(id);
         return R.ok().put("data", user);
     }
+
+    /*
+    * @Description:根据工号查询
+    * @Author: 陈锐  2022/05/09 0:28
+    */
+	@GetMapping("/selectByGonghao/{gonghao}")
+	public R selectByGonghao(@PathVariable("gonghao") String gonghao){
+		UserEntity user = userService.selectOne(new EntityWrapper<UserEntity>().eq("gonghao",gonghao));
+		return R.ok().put("data", user);
+	}
     
     /**
      * 获取用户的session用户信息

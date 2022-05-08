@@ -1,16 +1,120 @@
-2022-05-07 18:24:46,703 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 15708 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
-2022-05-07 18:24:46,743 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
-2022-05-07 18:24:49,787 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
-2022-05-07 18:24:49,794 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
-2022-05-07 18:24:49,794 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
-2022-05-07 18:24:49,795 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
-2022-05-07 18:24:49,883 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
-2022-05-07 18:24:49,883 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 3077 ms
-2022-05-07 18:24:50,003 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
-2022-05-07 18:24:50,220 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
-2022-05-07 18:24:50,880 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
-2022-05-07 18:24:50,899 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
-2022-05-07 18:24:50,902 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 4.71 seconds (JVM running for 5.616)
-2022-05-07 18:25:31,262 [http-nio-8081-exec-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-05-07 18:25:31,263 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
-2022-05-07 18:25:31,274 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 11 ms
+2022-05-09 00:30:34,444 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:30:40,037 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 20332 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:30:40,041 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:30:42,383 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:30:42,393 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:30:42,393 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:30:42,394 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:30:42,485 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:30:42,485 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2394 ms
+2022-05-09 00:30:42,607 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:30:42,857 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:30:43,465 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:30:43,485 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:30:43,488 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.989 seconds (JVM running for 5.061)
+2022-05-09 00:32:50,203 [http-nio-8081-exec-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:32:50,204 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:32:50,210 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 6 ms
+2022-05-09 00:36:01,227 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:36:06,529 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 5908 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:36:06,532 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:36:08,749 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:36:08,756 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:36:08,757 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:36:08,757 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:36:08,842 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:36:08,843 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2273 ms
+2022-05-09 00:36:08,964 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:36:09,220 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:36:09,861 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:36:09,882 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:36:09,884 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.877 seconds (JVM running for 4.818)
+2022-05-09 00:36:25,911 [http-nio-8081-exec-2] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:36:25,911 [http-nio-8081-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:36:25,916 [http-nio-8081-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2022-05-09 00:36:51,674 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:36:56,690 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 2084 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:36:56,693 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:36:59,014 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:36:59,021 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:36:59,022 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:36:59,022 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:36:59,108 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:36:59,109 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2346 ms
+2022-05-09 00:36:59,229 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:36:59,483 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:37:00,167 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:37:00,189 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:37:00,192 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.945 seconds (JVM running for 4.848)
+2022-05-09 00:37:21,251 [http-nio-8081-exec-2] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:37:21,252 [http-nio-8081-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:37:21,257 [http-nio-8081-exec-2] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2022-05-09 00:43:46,628 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:43:51,832 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 4028 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:43:51,861 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:43:54,084 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:43:54,091 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:43:54,092 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:43:54,092 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:43:54,179 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:43:54,180 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2277 ms
+2022-05-09 00:43:54,302 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:43:54,554 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:43:55,179 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:43:55,200 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:43:55,203 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.851 seconds (JVM running for 4.752)
+2022-05-09 00:44:14,612 [http-nio-8081-exec-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:44:14,612 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:44:14,617 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2022-05-09 00:47:55,830 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:48:01,104 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 18212 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:48:01,108 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:48:03,359 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:48:03,368 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:48:03,368 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:48:03,369 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:48:03,464 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:48:03,465 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2292 ms
+2022-05-09 00:48:03,591 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:48:03,852 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:48:04,497 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:48:04,519 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:48:04,522 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.884 seconds (JVM running for 4.783)
+2022-05-09 00:48:39,381 [http-nio-8081-exec-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:48:39,381 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:48:39,386 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2022-05-09 00:49:00,351 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:49:05,668 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 7796 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:49:05,671 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:49:07,921 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:49:07,930 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:49:07,931 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:49:07,931 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:49:08,020 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:49:08,020 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2309 ms
+2022-05-09 00:49:08,139 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:49:08,389 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:49:09,003 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:49:09,022 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:49:09,026 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.974 seconds (JVM running for 4.89)
+2022-05-09 00:50:15,015 [http-nio-8081-exec-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:50:15,015 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:50:15,023 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 8 ms
+2022-05-09 00:51:47,154 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
+2022-05-09 00:51:52,072 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:55 - Starting SpringbootSchemaApplication on LAPTOP-UAD91SA9 with PID 15560 (F:\bishe\springboot3if68\target\classes started by ³ÂÈñ in F:\bishe\springboot3if68)
+2022-05-09 00:51:52,075 [main] INFO  [com.SpringbootSchemaApplication] SpringApplication.java:651 - No active profile set, falling back to default profiles: default
+2022-05-09 00:51:54,302 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:92 - Tomcat initialized with port(s): 8081 (http)
+2022-05-09 00:51:54,310 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:51:54,311 [main] INFO  [org.apache.catalina.core.StandardService] DirectJDKLog.java:173 - Starting service [Tomcat]
+2022-05-09 00:51:54,311 [main] INFO  [org.apache.catalina.core.StandardEngine] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2022-05-09 00:51:54,401 [main] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+2022-05-09 00:51:54,401 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:284 - Root WebApplicationContext: initialization completed in 2252 ms
+2022-05-09 00:51:54,521 [main] INFO  [c.a.d.s.b.a.DruidDataSourceAutoConfigure] DruidDataSourceAutoConfigure.java:56 - Init DruidDataSource
+2022-05-09 00:51:54,768 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:971 - {dataSource-1} inited
+2022-05-09 00:51:55,412 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8081"]
+2022-05-09 00:51:55,433 [main] INFO  [o.s.boot.web.embedded.tomcat.TomcatWebServer] TomcatWebServer.java:204 - Tomcat started on port(s): 8081 (http) with context path '/springboot3if68'
+2022-05-09 00:51:55,436 [main] INFO  [com.SpringbootSchemaApplication] StartupInfoLogger.java:61 - Started SpringbootSchemaApplication in 3.822 seconds (JVM running for 4.685)
+2022-05-09 00:52:11,727 [http-nio-8081-exec-1] INFO  [o.a.c.c.C.[Tomcat].[localhost].[/springboot3if68]] DirectJDKLog.java:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-09 00:52:11,728 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:525 - Initializing Servlet 'dispatcherServlet'
+2022-05-09 00:52:11,733 [http-nio-8081-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:547 - Completed initialization in 5 ms
+2022-05-09 01:36:39,652 [SpringContextShutdownHook] INFO  [com.alibaba.druid.pool.DruidDataSource] DruidDataSource.java:1908 - {dataSource-1} closed
