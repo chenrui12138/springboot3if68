@@ -163,9 +163,9 @@ public class UserController{
     public R update(@RequestBody UserEntity user){
 //        ValidatorUtils.validateEntity(user);
     	UserEntity u = userService.selectOne(new EntityWrapper<UserEntity>().eq("xingming", user.getXingming()));
-    	if(u!=null && u.getId()!=user.getId() && u.getXingming().equals(user.getXingming())) {
-    		return R.error("用户名已存在。");
-    	}
+//    	if(u!=null && u.getId()!=user.getId() && u.getXingming().equals(user.getXingming())) {
+//    		return R.error("用户名已存在。");
+//    	}
         userService.updateById(user);//全部更新
         return R.ok();
     }
