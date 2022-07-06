@@ -37,7 +37,6 @@ import com.baomidou.mybatisplus.enums.IdType;
 public class YuyuexinxiEntity<T> implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-
 //	public YuyuexinxiEntity() {
 //
 //	}
